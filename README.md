@@ -1,1 +1,1 @@
-# PHP2026-2027
+Vježbe iz kolegija PHP na VVG-u
