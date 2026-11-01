@@ -1,0 +1,77 @@
+body {
+	font-family: 'Open Sans Condensed', Arial, sans-serif;
+	font-size: 110%;
+	color: #232323;
+	width: 50%;
+	margin: 0 auto;
+	margin-top: 2em;
+}
+
+input[type="number"] {
+	box-sizing: border-box;
+	outline: none;
+	display: block;
+	width: 100%;
+	padding: 7px;
+	border: none;
+	border-bottom: 1px solid #ddd;
+	background: transparent;
+	margin-bottom: 10px;
+	font-size: 16px;
+	height: 45px;
+	font-family: 'Open Sans Condensed', Arial, sans-serif;
+}
+
+label {
+	width: 140px;
+	display: inline-block;
+}
+
+.block {
+	margin: 4px 0;
+}
+
+input[type="submit"] {
+	box-shadow: inset 0px 1px 0px 0px #45D6D6;
+	background-color: #2CBBBB;
+	border: 1px solid #27A0A0;
+	display: inline-block;
+	cursor: pointer;
+	color: #FFFFFF;
+	font-family: 'Open Sans Condensed', Arial, sans-serif;
+	font-size: 14px;
+	padding: 8px 18px;
+	text-transform: uppercase;
+}
+
+.izlaz {
+	border-left: 4px solid #2CBBBB;
+	background: #f4fbfb;
+	padding: 10px 16px;
+	margin: 16px 0;
+}
+
+.izlaz hr {
+	width: 15%;
+	margin-left: 0;
+}
+
+.pozitivno {
+	color: #1e7e34;
+	font-weight: bold;
+}
+
+.negativno {
+	color: #c0392b;
+	font-weight: bold;
+}
+
+.greska {
+	color: #c0392b;
+}
+
+@media (max-width: 600px) {
+	body {
+		width: 90%;
+	}
+}
